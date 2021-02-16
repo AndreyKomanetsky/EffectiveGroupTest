@@ -68,9 +68,21 @@
 		$p = $n;
 	}
 	echo '<br>Задание 3:<br>';
-	$rect = new Rectangle(rand(1, 20), rand(1, 20));
-	$tria = new Triangle(rand(1, 20), rand(1, 20), rand(15, 165));
-	$circ = new Circle(rand(1, 20));
+	echo <<<DT
+	<form action="Generator.php" method="POST">
+     <input name="GenRec" type="submit" value="Generate rectangle" />
+	</form> <br>
+DT;
+	echo <<<DT
+	<form action="Generator.php" method="POST">
+     <input name="GenTri" type="submit" value="Generate triangle" />
+	</form>
+DT;
+	#$rect = new Rectangle(rand(1, 20), rand(1, 20));
+	#$tria = new Triangle(rand(1, 20), rand(1, 20), rand(15, 165));
+	#$circ = new Circle(rand(1, 20));
+	
+	
 ?>
 </BODY>
 </HTML>
