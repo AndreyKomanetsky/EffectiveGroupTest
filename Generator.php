@@ -17,10 +17,10 @@ DT;
                 echo 'Generated figure already exist. Come back and try again.';
                 return false;
             } else {
-				$fp = fopen('collection/'.$filename.".txt", "w");
-				fwrite($fp, $text);
-				fclose($fp);
-				return true;
+                $fp = fopen('collection/'.$filename.".txt", "w");
+                fwrite($fp, $text);
+                fclose($fp);
+                return true;
 
             }
         }
