@@ -1,0 +1,1 @@
+Rectangle||Length=20 Width=1||20

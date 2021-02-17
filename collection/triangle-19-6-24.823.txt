@@ -1,0 +1,1 @@
+Triangle||Side A=19 Side B=6 Side C=24.823||15.711
